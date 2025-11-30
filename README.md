@@ -8,6 +8,10 @@ My own version of a YubiKey using an RP2040 microcontroller!
 - RP2040 Microcontroller
 - Stores Password (through firmware)
 
+# How to Use
+
+The switches on the PCB can be used to boot up and reset the microcontroller, and the firmware can be modified to your liking!
+
 # Images:
 
 <img width="1163" height="799" alt="Screenshot 2025-11-29 155637" src="https://github.com/user-attachments/assets/2dc40258-589e-431e-a660-bafef7ef72ad" />
