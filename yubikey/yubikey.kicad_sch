@@ -4270,7 +4270,7 @@
 	)
 	(wire
 		(pts
-			(xy 148.59 52.07) (xy 148.59 55.88)
+			(xy 148.59 52.07) (xy 148.59 53.34)
 		)
 		(stroke
 			(width 0)
@@ -4347,6 +4347,16 @@
 			(type default)
 		)
 		(uuid "65d62dc1-12de-43ad-9e77-adb6e7777c20")
+	)
+	(wire
+		(pts
+			(xy 148.59 60.96) (xy 148.59 63.5)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "65e8a5a0-72fa-43dc-b36b-8726591b8a77")
 	)
 	(wire
 		(pts
@@ -5178,7 +5188,7 @@
 		)
 		(uuid "ea508684-4370-43c7-b137-7a5a3e17ac11")
 	)
-	(label "GPI02"
+	(label "GPIO2"
 		(at 269.24 71.12 180)
 		(effects
 			(font
@@ -7549,7 +7559,7 @@
 	)
 	(symbol
 		(lib_id "Device:R_US")
-		(at 148.59 59.69 0)
+		(at 148.59 57.15 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -7558,7 +7568,7 @@
 		(fields_autoplaced yes)
 		(uuid "a560d67b-52ce-4015-8637-2e7eedea9ed2")
 		(property "Reference" "R6"
-			(at 151.13 58.4199 0)
+			(at 151.13 55.8799 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7567,7 +7577,7 @@
 			)
 		)
 		(property "Value" "10k"
-			(at 151.13 60.9599 0)
+			(at 151.13 58.4199 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7576,7 +7586,7 @@
 			)
 		)
 		(property "Footprint" "Inductor_SMD:L_0402_1005Metric"
-			(at 149.606 59.944 90)
+			(at 149.606 57.404 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7585,7 +7595,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 148.59 59.69 0)
+			(at 148.59 57.15 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7594,7 +7604,7 @@
 			)
 		)
 		(property "Description" "Resistor, US symbol"
-			(at 148.59 59.69 0)
+			(at 148.59 57.15 0)
 			(effects
 				(font
 					(size 1.27 1.27)
