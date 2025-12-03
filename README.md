@@ -21,23 +21,26 @@ The switches on the PCB can be used to boot up and reset the microcontroller, an
 <img width="263" height="593" alt="Screenshot 2025-11-29 160807" src="https://github.com/user-attachments/assets/74c2f03b-6d80-4dad-8efa-517f7b95f0de" />
 
 # Build of Materials (BOM)
-| Reference        | Qty | Value     | DNP | Exclude from BOM | Exclude from Board | Footprint                                                                 | Datasheet                                                                 | Price (USD ea.) | Total (USD) |
-|------------------|-----|-----------|-----|------------------|--------------------|---------------------------------------------------------------------------|---------------------------------------------------------------------------|-----------------|-------------|
-| C1,C6            | 2   | 1uF       |     |                  |                    | Capacitor_SMD:C_0402_1005Metric                                           | ~                                                                         | 0.04            | 0.08        |
-| C2,C3,C4,C9      | 4   | 100nF     |     |                  |                    | Capacitor_SMD:C_0402_1005Metric                                           | ~                                                                         | 0.10            | 0.40        |
-| C5               | 1   | 10uF      |     |                  |                    | Capacitor_SMD:C_0402_1005Metric                                           | ~                                                                         | 0.36            | 0.36        |
-| C7,C8            | 2   | 15pF      |     |                  |                    | Capacitor_SMD:C_0402_1005Metric                                           | ~                                                                         | 0.08            | 0.16        |
-| D1               | 1   | LED       |     |                  |                    | Capacitor_SMD:C_0402_1005Metric                                           | ~                                                                         | 0.01            | 0.01        |
-| J1               | 1   | USB_C_Receptacle_USB2.0_16P | |        |                    | Connector_USB:USB_C_Receptacle_GCT_USB4105-xx-A_16P_TopMnt_Horizontal     | [USB Type-C Spec](https://www.usb.org/sites/default/files/documents/usb_type-c.zip) | 1.50            | 1.50        |
-| R1,R2            | 2   | 5.1k      |     |                  |                    | Inductor_SMD:L_0402_1005Metric                                            | ~                                                                         | 0.02            | 0.04        |
-| R3               | 1   | 470       |     |                  |                    | Inductor_SMD:L_0402_1005Metric                                            | ~                                                                         | 0.07            | 0.07        |
-| R4,R5            | 2   | 4.7k      |     |                  |                    | Inductor_SMD:L_0402_1005Metric                                            | ~                                                                         | 0.02            | 0.04        |
-| R6               | 1   | 10k       |     |                  |                    | Inductor_SMD:L_0402_1005Metric                                            | ~                                                                         | 0.11            | 0.11        |
-| R7,R8            | 2   | 27        |     |                  |                    | Inductor_SMD:L_0402_1005Metric                                            | ~                                                                         | 0.09            | 0.18        |
-| R9               | 1   | 1k        |     |                  |                    | Inductor_SMD:L_0402_1005Metric                                            | ~                                                                         | 0.30            | 0.30        |
-| SW1              | 1   | BOOTSEC   |     |                  |                    | Button_Switch_SMD:SW_Tactile_SPST_NO_Straight_CK_PTS636Sx25SMTRLFS        | ~                                                                         | 0.24            | 0.24        |
-| SW2              | 1   | RESET     |     |                  |                    | Button_Switch_SMD:SW_Tactile_SPST_NO_Straight_CK_PTS636Sx25SMTRLFS        | ~                                                                         | 0.24            | 0.24        |
-| U1               | 1   | ATECC608A-SSHDA | |                 |                    | Package_SO:SOIC-8_3.9x4.9mm_P1.27mm                                       | [ATECC608A Datasheet](http://ww1.microchip.com/downloads/en/DeviceDoc/ATECC608A-CryptoAuthentication-Device-Summary-Data-Sheet-DS40001977B.pdf) | 1.00            | 1.00        |
-| U2               | 1   | RP2040    |     |                  |                    | Package_DFN_QFN:QFN-56-1EP_7x7mm_P0.4mm_EP3.2x3.2mm                       | [RP2040 Datasheet](https://datasheets.raspberrypi.com/rp2040/rp2040-datasheet.pdf) | 2.28            | 2.28        |
-| U3               | 1   | W25Q128JVS | |                  |                    | Package_SO:SOIC-8_5.3x5.3mm_P1.27mm                                       | [Winbond Datasheet](https://www.winbond.com/resource-files/w25q128jv_dtr%20revc%2003272018%20plus.pdf) | 1.85            | 1.85        |
-| Y1               | 1   | 12MHz     |     |                  |                    | Crystal:Crystal_SMD_Abracon_ABM8G-4Pin_3.2x2.5mm                          | ~                                                                         | 0.40            | 0.40        |
+| Item | Description | Qty | Product link | Price w/ Tax ($) | Running Total |
+|------|-------------|-----|--------------|------------------|---------------|
+| Capacitor | 1uF | 2 | [link](https://jlcpcb.com/partdetail/53938-CL05A105KA5NQNC/C52923) | $0.03 | $0.03 |
+| Capacitor | 0.1uF | 4 | [link](https://jlcpcb.com/partdetail/1877-CL05B104KO5NNNC/C1525) | $0.07 | $0.10 |
+| Capacitor | 10uF | 1 | [link](https://jlcpcb.com/partdetail/2043-CL10A106MQ8NNNC/C1691) | $0.09 | $0.19 |
+| Capacitor | 15pF | 2 | [link](https://jlcpcb.com/partdetail/1914-0402CG150J500NT/C1547) | $0.01 | $0.20 |
+| Resistor | 5.1k | 2 | [link](https://jlcpcb.com/partdetail/26648-0402WGF5101TCE/C25905) | $0.01 | $0.21 |
+| Resistor | 470 | 1 | [link](https://jlcpcb.com/partdetail/UNIROYAL-0402WGF4700TCE/C25130) | $0.01 | $0.22 |
+| Resistor | 4.7k | 2 | [link](https://jlcpcb.com/partdetail/UNIROYAL-0402WGF4701TCE/C25867) | $0.01 | $0.23 |
+| Resistor | 10k | 1 | [link](https://jlcpcb.com/partdetail/UNIROYAL-0402WGF1002TCE/C25744) | $0.01 | $0.24 |
+| Resistor | 27 | 2 | [link](https://jlcpcb.com/partdetail/UNIROYAL-0402WGF270JTCE/C25100) | $0.01 | $0.25 |
+| Resistor | 1k | 1 | [link](https://jlcpcb.com/partdetail/UNIROYAL-0402WGF1001TCE/C11702) | $0.01 | $0.26 |
+| SW_Push | Tactile Button | 2 | [link](https://jlcpcb.com/partdetail/XKBConnectivity-TS-1187A-B-A-B/C318884) | $0.42 | $0.68 |
+| LED | Indicator LED 0402 | 1 | [link](https://jlcpcb.com/partdetail/Honglitronic-HL-LED0402R/C2290) | $0.02 | $0.70 |
+| WS2812B | RGB LED | 1 | [link](https://jlcpcb.com/partdetail/Worldsemi-WS2812B_BT/C2761795) | $0.20 | $0.90 |
+| RP2040 | Microcontroller | 1 | [link](https://jlcpcb.com/partdetail/RaspberryPi-RP2040/C2040) | $4.58 | $5.48 |
+| USB Receptacle | USB-C 16P | 1 | [link](https://jlcpcb.com/partdetail/Korean_HropartsElec-TYPE_C_31_M12/C165948) | $0.85 | $6.33 |
+| ATECC608A | Secure Element | 1 | [link](https://jlcpcb.com/partdetail/MicrochipTech-ATECC608ASSHDA/C148118) | $1.97 | $8.30 |
+| W25Q128JVS | Flash Storage | 1 | [link](https://jlcpcb.com/partdetail/WinbondElec-W25Q128JVSIQ/C97521) | $2.67 | $10.97 |
+| Crystal | 12MHz 3225 | 1 | [link](https://jlcpcb.com/partdetail/YXC_CrystalOscillators-X322512MSB4SI/C9002) | $0.32 | $11.29 |
+| Conn_01x03 | Pin Header 1x3 | 1 | [link](https://jlcpcb.com/partdetail/BOOMELE-BM03B-SRSS-TB/C42431804) | $0.05 | $11.34 |
+| Conn_01x20 | 1x20 Pin Headers | 2 | [link](https://jlcpcb.com/partdetail/BOOMELE-BM20B-SRSS-TB/C42431804) | $0.17 | $11.51 |
+| Yubikey PCBA | PCBA board assembly | 1 | [link](https://cart.jlcpcb.com/) | $43.94 | $55.45 |
