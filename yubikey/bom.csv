@@ -9,14 +9,14 @@ Resistor,4.7k,2,https://jlcpcb.com/partdetail/UNIROYAL-0402WGF4701TCE/C25867,$0.
 Resistor,10k,1,https://jlcpcb.com/partdetail/UNIROYAL-0402WGF1002TCE/C25744,$0.01,$0.24
 Resistor,27,2,https://jlcpcb.com/partdetail/UNIROYAL-0402WGF270JTCE/C25100,$0.01,$0.25
 Resistor,1k,1,https://jlcpcb.com/partdetail/UNIROYAL-0402WGF1001TCE/C11702,$0.01,$0.26
-SW_Push,Tactile Button,2,https://jlcpcb.com/partdetail/XKBConnectivity-TS-1187A-B-A-B/C318884,$0.42,$1.10
-LED,Indicator LED 0402,1,https://jlcpcb.com/partdetail/Honglitronic-HL-LED0402R/C2290,$0.02,$1.12
-WS2812B,RGB LED,1,https://jlcpcb.com/partdetail/Worldsemi-WS2812B_BT/C2761795,$0.20,$1.32
-RP2040,Microcontroller,1,https://jlcpcb.com/partdetail/RaspberryPi-RP2040/C2040,$4.58,$5.90
-USB Receptacle,USB-C 16P,1,https://jlcpcb.com/partdetail/Korean_HropartsElec-TYPE_C_31_M12/C165948,$0.85,$6.75
-ATECC608A,Secure Element,1,https://jlcpcb.com/partdetail/MicrochipTech-ATECC608ASSHDA/C148118,$1.97,$8.72
-W25Q128JVS,Flash Storage,1,https://jlcpcb.com/partdetail/WinbondElec-W25Q128JVSIQ/C97521,$2.67,$11.39
-Crystal,12MHz 3225,1,https://jlcpcb.com/partdetail/YXC_CrystalOscillators-X322512MSB4SI/C9002,$0.32,$11.71
-Conn_01x03,Pin Header 1x3,1,https://jlcpcb.com/partdetail/BOOMELE-BM03B-SRSS-TB/C42431804,$0.05,$11.76
-Conn_01x20,Pin Header 1x20,2,https://jlcpcb.com/partdetail/BOOMELE-BM20B-SRSS-TB/C42431804,$0.17,$11.93
-Yubikey PCBA,PCBA board assembly,1,N/A (https://cart.jlcpcb.com/),$43.94,$55.87
+SW_Push,Tactile Button,2,https://jlcpcb.com/partdetail/XKBConnectivity-TS-1187A-B-A-B/C318884,$0.42,$0.68
+LED,Indicator LED 0402,1,https://jlcpcb.com/partdetail/Honglitronic-HL-LED0402R/C2290,$0.02,$0.70
+WS2812B,RGB LED,1,https://jlcpcb.com/partdetail/Worldsemi-WS2812B_BT/C2761795,$0.20,$0.90
+RP2040,Microcontroller,1,https://jlcpcb.com/partdetail/RaspberryPi-RP2040/C2040,$4.58,$5.48
+USB Receptacle,USB-C 16P,1,https://jlcpcb.com/partdetail/Korean_HropartsElec-TYPE_C_31_M12/C165948,$0.85,$6.33
+ATECC608A,Secure Element,1,https://jlcpcb.com/partdetail/MicrochipTech-ATECC608ASSHDA/C148118,$1.97,$8.30
+W25Q128JVS,Flash Storage,1,https://jlcpcb.com/partdetail/WinbondElec-W25Q128JVSIQ/C97521,$2.67,$10.97
+Crystal,12MHz 3225,1,https://jlcpcb.com/partdetail/YXC_CrystalOscillators-X322512MSB4SI/C9002,$0.32,$11.29
+Conn_01x03,Pin Header 1x3,1,https://jlcpcb.com/partdetail/BOOMELE-BM03B-SRSS-TB/C42431804,$0.05,$11.34
+Conn_01x20,1x20 Pin Headers,2,https://jlcpcb.com/partdetail/BOOMELE-BM20B-SRSS-TB/C42431804,$0.17,$11.51
+Yubikey PCBA,PCBA board assembly,1,N/A (https://cart.jlcpcb.com/),$43.94,$55.45
