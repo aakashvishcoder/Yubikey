@@ -1,6 +1,6 @@
 # Yubikey
 
-My own version of a YubiKey using an RP2040 microcontroller!
+This is my version of a YubiKey, built around the RP2040 microcontroller! It’s a compact, secure authentication device designed to generate one‑time passwords and handle cryptographic operations for two‑factor authentication. This key has several unique features and components (as listed below), and is meant to replicate the core functionality of a hardware security token.
 
 # Features:
 - Programmable LED(s)
